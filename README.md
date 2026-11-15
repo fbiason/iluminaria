@@ -52,3 +52,9 @@ Botón flotante accesible que aparece después de 400 px de desplazamiento. Func
 ## Repositorio
 
 Origen: https://github.com/fbiason/iluminaria.git. La raíz del repositorio es esta carpeta independiente. `node_modules/`, `dist/`, `.env*` privados y capturas de QA están excluidos; `.env.example` público sí se incluye.
+
+## Consumo y comunicación de Lumi
+
+La pestaña Consumo reproduce la estructura de `ConsumptionView.tsx` de la app: “Cuánto gastaste de luz”, electricidad usada y referencia de cargos eléctricos. `src/ConsumptionDemo.tsx` permite alternar Hoy, 7 días y 30 días. Importes ARS en negrita y formato argentino. Tarifa sintética: cargo fijo de $180 + $120/kWh (sin impuestos ni créditos); consumos 8,40 / 58,80 / 252,00 kWh, referencias $1.188,00 / $7.236,00 / $30.420,00. No son tarifas vigentes ni una factura. Se conserva la identificación de demostración y no se accede a datos reales.
+
+“Lumi aprende de vos” se refiere a perfiles estadísticos de consumo y hábitos confirmados por el usuario, según la auditoría de rutinas existente; no afirma entrenamiento validado ni reconocimiento automático de aparatos. Se destacan avisos de alta y baja tensión según límites configurados. Los ejemplos de Alertas usan dos momentos distintos y límites ficticios de 210/240 V, sin presentarlos como valores universales. La conversación es editorial e ilustrativa, con una propuesta concreta de comparación de horarios.
