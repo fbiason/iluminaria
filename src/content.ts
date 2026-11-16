@@ -13,5 +13,5 @@ export const faqs = [
   ['¿Requiere instalación?','Si el medidor se instala en el tablero eléctrico, el trabajo debe realizarlo personal calificado. Los requisitos dependen del equipo y del lugar de instalación.'],
   ['¿Reemplaza al medidor de mi distribuidora?','No. Es una herramienta complementaria de monitoreo. El medidor de tu distribuidora continúa siendo la referencia para la facturación.'],
   ['¿Me garantiza un ahorro?','No. EnergIA Sur brinda información para ayudarte a tomar decisiones. Los resultados dependen de tus hábitos, los equipos, la tarifa y las medidas que adoptes.'],
-  ['¿Cómo accedo a la plataforma?','Desde el botón Ingresar. Esta landing funciona de forma independiente; hasta vincular el acceso a la aplicación, verás un aviso de disponibilidad próxima.'],
+  ['¿Cómo accedo a la plataforma?','Desde el botón Ingresar, que te lleva a energia-sur.netlify.app para acceder a la plataforma.'],
 ];

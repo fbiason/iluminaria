@@ -24,7 +24,7 @@ npm run preview
 
 ## Futuro acceso
 
-Copiar `.env.example` a `.env.local`, completar solo `VITE_APP_LOGIN_URL=https://direccion-real-del-acceso` y reiniciar Vite (recompilar al publicar). Es configuración pública, no colocar secretos. `src/config.ts` centraliza la validación: solo URLs absolutas HTTP(S), sin credenciales incrustadas. Vacía o inválida abre el modal “El acceso a la plataforma estará disponible próximamente”. El modal nativo mantiene el foco, admite Escape y devuelve el foco al activador. No se piden credenciales ni se almacena información.
+Copiar `.env.example` a `.env.local`, completar solo `VITE_APP_LOGIN_URL=https://direccion-real-del-acceso` y reiniciar Vite (recompilar al publicar). Es configuración pública, no colocar secretos. `src/config.ts` centraliza la validación: solo URLs absolutas HTTP(S), sin credenciales incrustadas. La URL predeterminada es https://energia-sur.netlify.app/; una variable omitida o vacía conserva ese destino. Una URL inválida abre el modal “El acceso a la plataforma estará disponible próximamente”. El modal nativo mantiene el foco, admite Escape y devuelve el foco al activador. No se piden credenciales ni se almacena información.
 
 ## Contenido y recursos
 
