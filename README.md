@@ -63,3 +63,8 @@ La pestaña Consumo reproduce la estructura de `ConsumptionView.tsx` de la app: 
 ## Identidad EnergIA Sur
 
 Marca visible: EnergIA Sur, con IA destacada. Paleta: azul marino #001B52; azul noche #00163E; azul pizarra #374D69; turquesa #00A59D; turquesa oscuro #007A75; cian #58F0E9; blanco frío #F6FAFB; agua #EAF8F9; blanco #FFFFFF. Variables centralizadas al final de src/styles.css. Globo de Lumi azul marino con texto blanco y cierre azul noche con CTA cian. Se conserva el PNG oficial de FORZA TECH. El directorio y el remoto históricos se mantienen para no mover el proyecto ni cambiar enlaces del repositorio.
+
+
+## Logo oficial EnergIA Sur
+
+`public/assets/energia-sur-logo.png` es el PNG original aportado por el usuario. Se usa en cabecera, footer y ambas demostraciones. El componente Brand conserva sus proporciones, colores y transparencia; el encuadre CSS oculta únicamente los márgenes transparentes del archivo (área visible aproximada: x239/y190, 1669×314 dentro de 2048×682). No se redibujó ni alteró el recurso original.

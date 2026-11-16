@@ -4,7 +4,7 @@ import { config } from './config';
 import { benefits, faqs } from './content';
 import ConsumptionDemo from './ConsumptionDemo';
 
-function Brand() { return <span className="brand">Energ<span>IA</span> Sur</span>; }
+function Brand() { return <span className="brand brand-logo"><img src="/assets/energia-sur-logo.png" alt="EnergIA Sur" width="2048" height="682"/></span>; }
 function Endorsement() { return <span className="endorsement"><span>Un producto de</span><img src={config.forzaLogo} alt="FORZA TECH" width="116" height="48"/></span>; }
 function BackToTop() {
  const [visible, setVisible] = useState(false);
